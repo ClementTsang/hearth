@@ -14,11 +14,11 @@ futures-timer = "^3.0"
 
 futures = "^0.3"
 smol = "^1.2"
-tokio = { version = "^0.3", features = ["full"] }
+tokio = { version = "^1.36", features = ["full"] }
 async-std = { version = "^1.7", features = ["attributes"] }
 
 ptree = { version = "0.3", default-features = false, features = ["ansi"] }
-prettytable-rs = "0.8.0"
+prettytable-rs = "0.10.0"
 humantime = "2.0.0"
 
 [[example]]
